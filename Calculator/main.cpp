@@ -36,7 +36,7 @@ int main()
             std::cout << "\nProduct of the numbers=" << multiply(x, y); // call multi() function to find the multiplication  
             break;
         case 4:
-            std::cout << "\Quotient of the numbers=" << divide(x, y); // call division() function to find the division  
+            std::cout << "\nQuotient of the numbers=" << divide(x, y); // call division() function to find the division  
             break;
         case 5:
             exit(0);   // terminate the program  
