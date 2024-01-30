@@ -1,6 +1,6 @@
 #include<iostream>  
 #include<stdio.h>  
-#include<conio.h>  
+//#include<conio.h>  
 #include<math.h>  
 #include<stdlib.h>  
 void add();
@@ -56,7 +56,7 @@ void main()
         }
         std::cout << " \n------------------------------\n";
     } while (opr != 7);
-    getch();
+    //getch();
 }
 
 void add()
