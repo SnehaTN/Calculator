@@ -1,5 +1,5 @@
 #include "CppUTest/TestHarness.h"
-#include "calc.h"
+#include "main.h"
 
 TEST_GROUP(FirstTestGroup)
 {
