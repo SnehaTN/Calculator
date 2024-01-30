@@ -6,7 +6,7 @@ CXXFLAGS += -include $(CPPUTEST_HOME)/MemoryLeakDetectorNewMacros.h
 LD_LIBRARIES = -lCppUTest -lCppUTestExt
 TARGET = TEST
 SRCS = Calc.cpp AllTests.cpp test.cpp
-OBJS = Calc.o AllTests.o test.o
+OBJS = AllTests.o test.o
 
 all: $(TARGET)
 
