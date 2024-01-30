@@ -10,5 +10,4 @@ TEST(FirstTestGroup, FirstTest)
 	CHECK_EQUALS(8, sub(4, 4));
 	CHECK_EQUALS(10, multi(5, 2));
 	CHECK_EQUALS(2, division(10, 2));
-
 }
