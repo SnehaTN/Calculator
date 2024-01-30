@@ -10,7 +10,7 @@ void division();
 void sqr();
 void srt();
 void exit();
-void main()
+int main()
 {
     int opr;
     // display different operation of the calculator  
@@ -57,6 +57,7 @@ void main()
         std::cout << " \n------------------------------\n";
     } while (opr != 7);
     //getch();
+    return 0;
 }
 
 void add()
