@@ -4,7 +4,7 @@
 #include<stdlib.h> 
 #include "Calc.h"
 
-int main()
+/*int main()
 {
     int x=0, y=0;
     int opr;
@@ -48,7 +48,7 @@ int main()
         std::cout << " \n------------------------------\n";
     } while (opr != 5);
     return 0;
-}
+}*/
 
 int add(int x, int y)
 {
