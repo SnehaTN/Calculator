@@ -5,4 +5,4 @@ cmake_minimum_required(VERSION 3.10)
 project(Calculator)
 
 # Add an executable to the project
-add_executable(Calculator Calculator/Calc.cpp)
+add_executable(Calculator Calculator/main.cpp)
